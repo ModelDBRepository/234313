@@ -1,0 +1,18 @@
+<html>
+<p>To run simulation: 
+</p><p>1- Run 'parameters.m' to load parameters values.<br/>
+2- Run 'BG.slx' which is the main simulation. Some '*.mat' files are created which contain information on the movements. <br/>
+<img src="./images/screenshot.png" alt="simulation screenshot" width="550"><br/>
+Run the simulation (might take a few minutes). This will write results files and generate a figure of healthy arm motion:<br/>
+<img src="./images/screenshothealthy.png" alt="healthy screenshot" width="550"><br/>
+3- To see the motions, run 'animation.m'.<br/>
+  You will see the arm move efficiently to locations such as these:<br/>
+  <img src="./images/screenshotarm1.png" alt="arm1 screenshot" width="550"><br/>
+  <img src="./images/screenshotarm2.png" alt="arm2 screenshot" width="550"><br/>
+
+  4- To simulate parkinsonian condition, set g in 'parameters.m', lower than 1 and greater than 0.<br/>
+    If you set g = 0.01 for example, and rerun the simulation the arm trajectory graph looks like:<br/>
+      <img src="./images/screenshotpd.png" alt="pd screenshot" width="550"><br/>
+And rerunning the animation displays the deficits in motion (see paper for more).
+  </p> 
+</html>
